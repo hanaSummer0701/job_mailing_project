@@ -45,11 +45,11 @@ def setup_driver():
 
 # 채용공고 db
 def connect_to_database():
-    db_host = 'localhost'
-    db_user = 'root'
-    db_password = '1231'
-    db_name = 'crawling'
-    db_port = 3306
+    db_host = '@@@@@'
+    db_user = '@@@@@@@@@@'
+    db_password = '@@@@@@@@'
+    db_name = '@@@@@@@@@@@@@@'
+    db_port = @@@@@@@@@@
     
     try:
         connection = mysql.connector.connect(host=db_host,
