@@ -119,12 +119,12 @@ url_list = []        # 채용정보url
 # MariaDB 연결 설정 # mysql 버전 정보가 안맞아서 수정함 charset, collation 추가.
 # 신버전 (hostname 서버에서 사용)
 connection = pymysql.connect(
-        host='172.17.0.1',  # 또는 Docker 컨테이너의 IP 주소
-        user='root',
-        password='1231',
-        database='crawling',
+        host='@@@@',  # 또는 Docker 컨테이너의 IP 주소
+        user='@@@@',
+        password='@@@@',
+        database='@@@@',
         charset='utf8mb4',
-        port=3306,  # MySQL 기본 포트
+        port=@@@@,  
         collation="utf8mb4_general_ci",
         cursorclass=pymysql.cursors.DictCursor
     )
